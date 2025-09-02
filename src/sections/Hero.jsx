@@ -2,7 +2,7 @@ import {gsap} from 'gsap';
 import {useGSAP} from "@gsap/react";
 
 import ComingSoon from "./ComingSoon.jsx";
-import { useMaskSettings } from '../../../constants';
+import { useMaskSettings } from '../../constants/index.js';
 const Hero = () => {
     const {initialMaskPos, initialMaskSize , maskPos , maskSize} = useMaskSettings();
     useGSAP(() => {
